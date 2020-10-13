@@ -34,3 +34,7 @@
 .mapa {
     margin: 50px;
 }
+
+#foto{
+    display: none;
+}
