@@ -7,21 +7,25 @@
 }
 
 #que {
-    border: 2px solid grey;
+    border: 2px solid  #D5E6F2;
     padding: 100px;
     margin: 20px;
 }
 
 #pq {
-    border: 2px solid grey;
+    border: 2px solid #D5E6F2;
     padding: 100px;
     margin: 20px;
 }
 
 #paraque {
-    border: 2px solid grey;
+    border: 2px solid #D5E6F2;
     padding:100px;
     margin: 20px;
+}
+
+#region {
+    float: right;
 }
 
 .preguntas {
@@ -32,7 +36,7 @@
 }
 
 .mapa {
-    margin: 50px;
+    display: inline-block;
 }
 
 #foto{
