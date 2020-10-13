@@ -37,4 +37,7 @@
 
 #foto{
     display: none;
+    position: fixed;
+    top: 300px;
+    left: 10px
 }
