@@ -1,4 +1,10 @@
-
+html { 
+    background: url("Fondo.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 #titulo {
     margin-left: auto;
     margin-right: auto;
@@ -7,6 +13,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     line-height: normal;
+    font-family: 'Source Sans Pro', sans-serif;
         
 }
 
@@ -29,7 +36,7 @@
 }
 
 #pg { 
-    background-image: url("Fondo.jpg");
+    background-image: url("/Users/saritavialundurraga/Documents/GitHub/grupo3/Fondo.jpg");
     background-size: contain;
     }
 
@@ -73,3 +80,5 @@
     top: 300px;
     left: 10px;
 }
+
+
