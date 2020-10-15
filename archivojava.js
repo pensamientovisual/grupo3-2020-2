@@ -77,7 +77,7 @@ $(document).ready(function(){
 });
     tarapaca.mouseleave(function(){$(this).fadeTo("fast",1);});
 
-    var biobio = $("#Cl-BI");
+    var biobio = $("#CL-BI");
     biobio.mouseenter(function(){$(this).fadeTo("fast",0.5);
     $("#region").text("Biobío")
 });
