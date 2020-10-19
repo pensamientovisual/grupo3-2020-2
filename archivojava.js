@@ -171,7 +171,7 @@ $(document).ready(function(){
     santiago.mouseleave(function(){$(this).fadeTo("fast",1);});
     santiago.click(function()
     {$("#foto").toggle();
-    document.getElementById("foto").src = ""//Poner direccion
+    document.getElementById("foto").src = "https://www.cned.cl/sites/default/files/styles/preview__480x320_/public/tableau_reports/matricula_sistema_final.png?itok=5EAl-4ID"
     ;})
 
 });
