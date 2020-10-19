@@ -88,6 +88,11 @@ $(document).ready(function(){
     $("#region").text("Ñuble")
 });
     nuble.mouseleave(function(){$(this).fadeTo("fast",1);});
+    nuble.click(function()
+    {$("#foto").toggle();
+    document.getElementById("foto").src = ""//Poner direccion
+    ;})
+    
 
     var santiago = $("#CL-RM");
     santiago.mouseenter(function(){$(this).fadeTo("fast",0.5);
@@ -95,7 +100,8 @@ $(document).ready(function(){
 });
     santiago.mouseleave(function(){$(this).fadeTo("fast",1);});
     santiago.click(function()
-    {$("#foto").toggle()
+    {$("#foto").toggle();
+    document.getElementById("foto").src = ""//Poner direccion
     ;})
 
 });
