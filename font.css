@@ -86,4 +86,35 @@ html {
     left: 300px;
 }
 
+#instruccion{
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    top: 20px;
+    left: 400px; 
+}
 
+.boton_pregunta{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #1B4B70;
+    border-radius: 50px;
+    padding: 4px 10px;
+}
+#foto_que{
+    display: none;
+    top: 300px;
+    left: 300px;
+}
+
+#foto_para_que{
+    display: none;
+    top: 300px;
+    left: 300px;
+}
+
+#foto_pq{
+    display: none;
+    top: 300px;
+    left: 300px;
+}
