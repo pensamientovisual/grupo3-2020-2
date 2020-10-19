@@ -71,14 +71,15 @@ html {
 }
 
 .mapa {
-    left: 5px;
+    position: relative;
+    left: -400px;
 }
 
 #foto{
     display: none;
     position: fixed;
     top: 300px;
-    left: 10px;
+    left: 300px;
 }
 
 
