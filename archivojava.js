@@ -5,8 +5,8 @@ $(document).ready(function(){
 });
     aisen.mouseleave(function(){$(this).fadeTo("fast",1);});
     aisen.click(function()
-    {$("#foto").toggle();
-    document.getElementById("foto").src = ""//Poner direccion
+    {$("#foto").show();
+    document.getElementById("foto").src = "datos_regiones/AYSEN.jpg"
     ;})
 
     var magallanes = $("#CL-MA");
@@ -15,8 +15,8 @@ $(document).ready(function(){
 });
     magallanes.mouseleave(function(){$(this).fadeTo("fast",1);});
     magallanes.click(function()
-    {$("#foto").toggle();
-    document.getElementById("foto").src = ""//Poner direccion
+    {$("#foto").show();
+    document.getElementById("foto").src = "datos_regiones/MAGALLANES.jpg"
     ;})
 
     var antofagasta = $("#CL-AN");
@@ -25,8 +25,8 @@ $(document).ready(function(){
 });
     antofagasta.mouseleave(function(){$(this).fadeTo("fast",1);});
     antofagasta.click(function()
-    {$("#foto").toggle();
-    document.getElementById("foto").src = ""//Poner direccion
+    {$("#foto").show();
+    document.getElementById("foto").src = "datos_regiones/ANTOFAGASTA.jpg"
     ;})
 
     var atacama = $("#CL-AT");
@@ -35,8 +35,8 @@ $(document).ready(function(){
 });
     atacama.mouseleave(function(){$(this).fadeTo("fast",1);});
     atacama.click(function()
-    {$("#foto").toggle();
-    document.getElementById("foto").src = ""//Poner direccion
+    {$("#foto").show();
+    document.getElementById("foto").src = "datos_regiones/ATACAMA.jpg"
     ;})
     
     var coquimbo = $("#CL-CO");
@@ -45,8 +45,8 @@ $(document).ready(function(){
 });
     coquimbo.mouseleave(function(){$(this).fadeTo("fast",1);});
     coquimbo.click(function()
-    {$("#foto").toggle();
-    document.getElementById("foto").src = ""//Poner direccion
+    {$("#foto").show();
+    document.getElementById("foto").src = "datos_regiones/COQUIMBO.jpg"
     ;})
 
     var valparaiso = $("#CL-VS");
@@ -55,8 +55,8 @@ $(document).ready(function(){
 });
     valparaiso.mouseleave(function(){$(this).fadeTo("fast",1);});
     valparaiso.click(function()
-    {$("#foto").toggle();
-    document.getElementById("foto").src = ""//Poner direccion
+    {$("#foto").show();
+    document.getElementById("foto").src = "datos_regiones/VALPARAISO.jpg"
     ;})
 
     var araucania = $("#CL-AR");
@@ -65,8 +65,8 @@ $(document).ready(function(){
 });
     araucania.mouseleave(function(){$(this).fadeTo("fast",1);});
     araucania.click(function()
-    {$("#foto").toggle();
-    document.getElementById("foto").src = ""//Poner direccion
+    {$("#foto").show();
+    document.getElementById("foto").src = "datos_regiones/ARAUCANIA.jpg"
     ;})
 
     var libertador = $("#CL-LI");
@@ -75,8 +75,8 @@ $(document).ready(function(){
 });
     libertador.mouseleave(function(){$(this).fadeTo("fast",1);});
     libertador.click(function()
-    {$("#foto").toggle();
-    document.getElementById("foto").src = ""//Poner direccion
+    {$("#foto").show();
+    document.getElementById("foto").src = "datos_regiones/OHIGGINS.jpg"
     ;})
 
     var lagos = $("#CL-LL");
@@ -85,8 +85,8 @@ $(document).ready(function(){
 });
     lagos.mouseleave(function(){$(this).fadeTo("fast",1);});
     lagos.click(function()
-    {$("#foto").toggle();
-    document.getElementById("foto").src = ""//Poner direccion
+    {$("#foto").show();
+    document.getElementById("foto").src = "datos_regiones/LOS_LAGOS.jpg"
     ;})
 
 
@@ -96,8 +96,8 @@ $(document).ready(function(){
 });
     maule.mouseleave(function(){$(this).fadeTo("fast",1);});
     maule.click(function()
-    {$("#foto").toggle();
-    document.getElementById("foto").src = ""//Poner direccion
+    {$("#foto").show();
+    document.getElementById("foto").src = "datos_regiones/MAULE.jpg"
     ;})
 
 
@@ -107,8 +107,8 @@ $(document).ready(function(){
 });
     arica.mouseleave(function(){$(this).fadeTo("fast",1);});
     arica.click(function()
-    {$("#foto").toggle();
-    document.getElementById("foto").src = ""//Poner direccion
+    {$("#foto").show();
+    document.getElementById("foto").src = "datos_regiones/ARICA_PARINACOTA.jpg"
     ;})
 
 
@@ -118,8 +118,8 @@ $(document).ready(function(){
 });
     rios.mouseleave(function(){$(this).fadeTo("fast",1);});
     rios.click(function()
-    {$("#foto").toggle();
-    document.getElementById("foto").src = ""//Poner direccion
+    {$("#foto").show();
+    document.getElementById("foto").src = "datos_regiones/LOS_RIOS.jpg"
     ;})
 
 
@@ -129,8 +129,8 @@ $(document).ready(function(){
 });
     tarapaca.mouseleave(function(){$(this).fadeTo("fast",1);});
     tarapaca.click(function()
-    {$("#foto").toggle();
-    document.getElementById("foto").src = ""//Poner direccion
+    {$("#foto").show();
+    document.getElementById("foto").src = "datos_regiones/TARAPACA.jpg"
     ;})
 
 
@@ -140,8 +140,8 @@ $(document).ready(function(){
 });
     biobio.mouseleave(function(){$(this).fadeTo("fast",1);});
     biobio.click(function()
-    {$("#foto").toggle();
-    document.getElementById("foto").src = ""//Poner direccion
+    {$("#foto").show();
+    document.getElementById("foto").src = "datos_regiones/BIOBIO.jpg"
     ;})
 
 
@@ -151,8 +151,8 @@ $(document).ready(function(){
 });
     nuble.mouseleave(function(){$(this).fadeTo("fast",1);});
     nuble.click(function()
-    {$("#foto").toggle();
-    document.getElementById("foto").src = ""//Poner direccion
+    {$("#foto").hide();
+    document.getElementById("foto").src = "data:,"
     ;})
     
 
@@ -161,17 +161,32 @@ $(document).ready(function(){
     $("#region").text("Región Metropolitana de Santiago")
 });
     var boton_que = $("#boton_que");
-    boton_que.click(function(){$("#foto_que").toggle();})
+    boton_que.click(function()
+    {$("#foto_preguntas_div").show();
+    document.getElementById("foto_preguntas").src = "QUE.png"
+    ;})
 
     var boton_paraq = $("#boton_para_que");
-    boton_paraq.click(function(){$("#foto_para_que").toggle();})
+    boton_paraq.click(function()
+    {$("#foto_preguntas_div").show();
+    document.getElementById("foto_preguntas").src = "PARAQUE.png"
+    ;})
 
     var boton_pq = $("#boton_pq");
-    boton_pq.click(function(){$("#foto_pq").toggle();})
+    boton_pq.click(function()
+    {$("#foto_preguntas_div").show();
+    document.getElementById("foto_preguntas").src = "PQ.png";
+})
+
+    var boton_salir = $(".boton_salir");
+    boton_salir.click(function()
+    {$("#foto_preguntas_div").hide();
+})
+
     santiago.mouseleave(function(){$(this).fadeTo("fast",1);});
     santiago.click(function()
-    {$("#foto").toggle();
-    document.getElementById("foto").src = "https://www.cned.cl/sites/default/files/styles/preview__480x320_/public/tableau_reports/matricula_sistema_final.png?itok=5EAl-4ID"
+    {$("#foto").show();
+    document.getElementById("foto").src = "datos_regiones/RM.jpg"
     ;})
 
 });
