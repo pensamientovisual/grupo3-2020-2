@@ -1,7 +1,7 @@
 $(document).ready(function(){
     var aisen = $("#CL-AI");
     aisen.mouseenter(function(){$(this).fadeTo("fast",0.5);
-    $("#region").text("Aisén del General Carlos Ibáñez del Campo")
+    $("#region").text("Aysén del General Carlos Ibáñez del Campo")
 });
     aisen.mouseleave(function(){$(this).fadeTo("fast",1);});
     aisen.click(function()
