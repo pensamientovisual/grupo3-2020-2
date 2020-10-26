@@ -7,6 +7,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;600&display=swap" rel="stylesheet">
   <script type="text/javascript" src="jquery-3.5.1.js"></script>
   <script type="text/javascript" src= "archivojava.js"></script>
+  <script>
+     $(function(){
+        $("#btn_mostrar").click(function(){
+           $("#que").text("El proyecto consiste en una plataforma online que muestre la relación que tiene la educación con varios aspectos de la persona en su futuro. Se mostrará mediante gráficos y dibujos,al seleccionar una región en un mapa de Chile, como esta influye en cada uno de ellos.Se enfocará en la economía y la deserción escolar."); 
+           $("#que").css("color", "white");
+
+
+        });
+      
+     })
+     $(function(){
+        $("#btn_mostrarpq").click(function(){
+           $("#pq").text("Se eligió este proyecto dado la falta de información que se tiene sobre la incidencia de la educación y el nivel educacional al que se llega con el empleo, los ingresos y la deserción escolar. Por esto se recopiló información relevante  y se hicieron gráficos que mostraran las relaciones más importantes."); 
+           $("#pq").css("color", "white");
+           $("#pq").css("margin","auto");
+
+
+        });
+     })
+     $(function(){
+        $("#btn_mostrarpaq").click(function(){
+           $("#paraque").text("El proyecto busca mostrar a los usuarios de manera gráfica, la importancia y gran incidencia que tiene la educación en su futuro y la estrecha relación que existe entre esta y el empleo. Por último, mostrar los ingresos que se tendrán en un futuro según el nivel al cual se llega haciendo una aproximación de manera general."); 
+           $("#paraque").css("color", "white");
+
+
+        });
+     })
+  </script>
   <title>Educación</title>
 </head>
 <body class= "pagina" id="pg">
@@ -15,15 +43,19 @@
    </section>
 
   <div class= "preguntas" id="que">
-    <h2 style="color:white">¿QUÉ?</h2>
+    <h2 title="que" style="color:white">¿QUÉ?</h2>
+    <imput type="button" id= "btn_mostrar" value= "mostrar mensaje">
+
     <a style="color: #1B4B70;background: #D5E6F2;" id="boton_que" class="boton_pregunta">Haz Click acá </a>
   </div>
   <div class= "preguntas" id= "pq">
-    <h2 style="color:white">¿POR QUÉ?</h2>
+    <h2 style="color:white">¿POR QUÉ?</h3>
+    <imput type="button" id= "btn_mostrarpq" value= "mostrar mensaje pq">
     <a style="color: #1B4B70;background: #D5E6F2;" id="boton_pq" class="boton_pregunta">Haz Click acá </a>
   </div>
   <div class= "preguntas" id= "paraque">
-    <h2 style="color:white">¿PARA QUÉ?</h2>
+    <h2 style="color:white">¿PARA QUÉ?</h4>
+    <imput type="button" id= "btn_mostrarpaq" value= "mostrar mensaje paq">
     <a style="color: #1B4B70;background: #D5E6F2;" id="boton_para_que" class="boton_pregunta">Haz Click acá </a>
   </div>
   <div id="foto_preguntas_div">
