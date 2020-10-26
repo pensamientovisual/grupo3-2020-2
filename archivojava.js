@@ -160,28 +160,6 @@ $(document).ready(function(){
     santiago.mouseenter(function(){$(this).fadeTo("fast",0.5);
     $("#region").text("Región Metropolitana de Santiago")
 });
-    var boton_que = $("#boton_que");
-    boton_que.click(function()
-    {$("#foto_preguntas_div").show();
-    document.getElementById("foto_preguntas").src = "QUE.png"
-    ;})
-
-    var boton_paraq = $("#boton_para_que");
-    boton_paraq.click(function()
-    {$("#foto_preguntas_div").show();
-    document.getElementById("foto_preguntas").src = "PARAQUE.png"
-    ;})
-
-    var boton_pq = $("#boton_pq");
-    boton_pq.click(function()
-    {$("#foto_preguntas_div").show();
-    document.getElementById("foto_preguntas").src = "PQ.png";
-})
-
-    var boton_salir = $(".boton_salir");
-    boton_salir.click(function()
-    {$("#foto_preguntas_div").hide();
-})
 
     santiago.mouseleave(function(){$(this).fadeTo("fast",1);});
     santiago.click(function()

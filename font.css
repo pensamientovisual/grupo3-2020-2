@@ -132,18 +132,7 @@ html {
     max-width: 30%;
     max-height: 20%;
 }
-.boton_salir{
-    width: 2px;
-    height: 2px;
-    position: relative;
-    right:20px;
-    top: auto;
-    padding: 10px;
-    background-color: #415C70;
-    color:#D5E6F2;
-    border-radius: 50%;
-    line-height: 10px;
-}
+
 
 #fuente{
     color: white;
