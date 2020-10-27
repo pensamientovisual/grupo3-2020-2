@@ -156,6 +156,11 @@ html {
     position: relative;
     top: 100px;
 }
+#conclusion{
+  color: white;
+  position: relative;
+  top: 100px;
+}
 
 @import url(https://fonts.googleapis.com/css?family=Martel+Sans:200,300,400,800,900);
 @import url(http://c-araujo.com/assets/fonts/starJedi/SE/style.css);
