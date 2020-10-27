@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    var foto1 = true;
+    var foto2 = false;
+
     var aisen = $("#CL-AI");
     aisen.mouseenter(function(){$(this).fadeTo("fast",0.5);
     $("#region").text("Aysén del General Carlos Ibáñez del Campo")
