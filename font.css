@@ -74,18 +74,35 @@ html {
 
 .mapa {
     position: relative;
+    display: inline-block;
     left: -400px;
     padding-top: 50px;
 }
 
-#foto{
-    display: none;
+.foto{
+    display: inline-block;
     position: relative;
-    top: -700px;
-    left: 300px;
-    max-width: 80%;
-    max-height: 60%;
+    max-width: 100%;
+    max-height: 100%;
     scroll-margin-bottom: 30px;
+}
+#foto2{
+  display: none;
+  position: relative;
+  max-width: 40%;
+  max-height: 30%;
+  scroll-margin-bottom: 30px;
+  left: 420px;
+  top: -310px;  
+}
+#foto1{
+  display: none;
+  position: relative;
+  max-width: 40%;
+  max-height: 30%;
+  scroll-margin-bottom: 30px;
+  left: -200px;
+  top: -330px;
 }
 
 #instruccion{
